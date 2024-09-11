@@ -52,24 +52,15 @@
     justify-content: space-between;
     align-items: flex-start;
     max-width: 500px;
-    margin: 0 auto;
+    max-height: 500px;
 	}
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 30px);  /* три колонки */
-    grid-template-rows: 30px 30px 30px;     /* три строки разной структуры */
-    gap: 5px;
-    border: 2px solid white;
-    padding: 5px;
-    margin-bottom: 10px;  /* пространство для иконки */
-}
 
 td{
      
      width: 30px; 
      height:30px; 
      border: solid 1px silver; 
-     text-align:center;
+     text-align: center;
       }
 .icon-section {
     text-align: right;
@@ -117,8 +108,8 @@ td{
                 <li><span style="text-decoration: line-through;">Line through</span></li>
             </ul>
         </div>
-
-        <table>
+	
+        <table style="border: solid 1px silver">
             <tr>
                 <td rowspan="2" style="background-color:green;">1</td>
                 <td>2</td>
@@ -133,7 +124,7 @@ td{
                 <td colspan="2" style="background-color:red;">7</td>
             </tr>
         </table>
-
+	</div>
     </div>
 </div>
 
